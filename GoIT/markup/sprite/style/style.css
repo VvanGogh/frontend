@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+.menu{
+    position: relative;
+    overflow: hidden;
+    margin: 100px 0 0 100px;
+}
+.menu li{
+    float:left;
+    margin: 20px;
+    list-style: none;
+}
+.menu li a{
+    height: 58px;
+    width: 58px;
+    display: block;
+    background: url(../img/css-sprite-iconok2.png) 0 0 no-repeat;
+    transition: 0.2s all;
+}
+.menu .tw{
+    background-position: -60px 0;
+}
+.menu .gplus{
+    background-position: -119px 0;
+}
+.menu .info{
+    background-position: -179px 0;
+}
+.menu a:hover{
+    background-position: 0 -59px;
+}
+.menu .tw:hover{
+    background-position: -60px -59px;
+}
+.menu .gplus:hover{
+    background-position: -119px -59px;
+}
+.menu .info:hover{
+    background-position: -179px -59px;
+}
