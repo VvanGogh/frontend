@@ -24,19 +24,19 @@
     border-radius: 93px;
     
 }
-.menu .tw{
+.menu .two{
     background-position: -213px 0;
 }
-.menu .gplus{
+.menu .three{
     background-position: -427px 0;
 }
 
 .menu a:hover{
     background-position: 0 -214px;
 }
-.menu .tw:hover{
+.menu .two:hover{
     background-position: -213px -214px;
 }
-.menu .gplus:hover{
+.menu .three:hover{
     background-position: -427px -214px;
 }
