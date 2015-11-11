@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+.menu{
+    position: relative;
+    overflow: hidden;
+    margin: 100px 0 0 100px;
+}
+.menu li{
+    float:left;
+    margin-left: 20px;
+    list-style: none;
+}
+.menu li a{
+    height: 191px;
+    width: 190px;
+    display: block;
+    background: url(../img/animals.png) 0 0 no-repeat;
+    transition: 0.2s all;
+    
+    border-radius: 93px;
+    
+}
+.menu .tw{
+    background-position: -213px 0;
+}
+.menu .gplus{
+    background-position: -427px 0;
+}
+
+.menu a:hover{
+    background-position: 0 -214px;
+}
+.menu .tw:hover{
+    background-position: -213px -214px;
+}
+.menu .gplus:hover{
+    background-position: -427px -214px;
+}
